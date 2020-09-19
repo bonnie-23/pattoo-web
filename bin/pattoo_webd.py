@@ -6,7 +6,7 @@ Serves as a Gunicorn WSGI entry point for pattoo-api
 """
 
 # Standard libraries
-import sysenv
+import sys
 import os
 # Try to create a working PYTHONPATH
 _BIN_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
